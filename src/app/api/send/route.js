@@ -4,9 +4,13 @@ import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 const fromEmail = process.env.FROM_EMAIL;
 
-export async function POST(req, res) {
+export async function POST(req) {
   const { email, subject, message } = await req.json();
-  console.log(email, subject, message);
+  
+  if (!fromEmail) {
+    return NextResponse.json({ error: "From email is not set" }, { status: 500 });
+  }
+
   try {
     const data = await resend.emails.send({
       from: fromEmail,
@@ -23,6 +27,7 @@ export async function POST(req, res) {
     });
     return NextResponse.json(data);
   } catch (error) {
-    return NextResponse.json({ error });
+    return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
   }
 }
+

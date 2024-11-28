@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -18,6 +19,11 @@ module.exports = {
       ...colors,
       primary: colors.purple,
       secondary: colors.pink,
+      sky: colors.sky, // Replacement for lightBlue
+      stone: colors.stone, // Replacement for warmGray
+      neutral: colors.neutral, // Replacement for trueGray
+      gray: colors.gray, // Replacement for coolGray
+      slate: colors.slate, // Replacement for blueGray
     },
   },
   plugins: [],

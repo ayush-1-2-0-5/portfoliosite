@@ -1,0 +1,5 @@
+# Ignore specific files
+src/app/components/HeroSection.jsx
+
+# Ignore the entire components folder
+src/app/components/

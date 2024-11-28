@@ -19,16 +19,16 @@ const HeroSection = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
-            <br></br>
+            <br />
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Ayush",
                 1000,
                 "Web Developer",
                 1000,
-                "Mobile Developer",
+                "Coder",
                 1000,
-                "UI/UX Designer",
+                "Tech Enthusiast",
                 1000,
               ]}
               wrapper="span"
@@ -37,9 +37,12 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
-          </p>
+  I am a passionate tech explorer constantly seeking new knowledge and
+  innovations in the ever-evolving world of technology. With a strong
+  curiosity and dedication, I aim to contribute to the tech industry by
+  learning new skills, building meaningful projects, and collaborating
+  with like-minded individuals to push the boundaries of what&apos;s possible.
+</p>
           <div>
             <Link
               href="/#contact"
@@ -47,14 +50,15 @@ const HeroSection = () => {
             >
               Hire Me
             </Link>
-            <Link
-              href="/"
+            <a
+              href="/cv.pdf"
+              download="Ayush_CV.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
-            </Link>
+            </a>
           </div>
         </motion.div>
         <motion.div
