@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "ConfessOut",
-    description: "This is the project that i am currently working on that aims to create a platform for people to confess theri secreats while keeping their identity hidden. Confession is done through story and not person.",
+    description: "This is the project that i am currently working on that aims to create a platform for people to confess their secrets while keeping their identity hidden. Confession is done through story and not person.",
     image: "/images/projects/confessout.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ayush-1-2-0-5/confessout",
@@ -38,8 +38,8 @@ const projectsData = [
     description: "This website shows my Portfolio.",
     image: "/images/projects/portfoiliosite.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/ayush-1-2-0-5/portfoliosite",
+    previewUrl: "https://portfoliosite-pi-nine.vercel.app/",
   },
   {
     id: 5,

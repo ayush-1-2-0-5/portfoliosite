@@ -5,7 +5,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 import CodingProfilesSection from "./components/CodingProfiles";
-import ContactSection from "./components/EmailSection";
+import ContactSection from "./components/Contact";
 
 export default function Home() {
   return (
