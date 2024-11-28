@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/icmc2026.png",
     tag: ["All", "Web"],
     gitUrl: "/https://github.com/ayush-1-2-0-5/ICMC2026",
-    previewUrl: "/",
+    previewUrl: "https://icmc-2026.vercel.app/",
   },
   {
     id: 3,
@@ -48,6 +48,24 @@ const projectsData = [
     image: "/images/projects/collegeconnect.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ayush-1-2-0-5/Project-College",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Backtest Engine",
+    description: "Helped in developing a backtesting engine of a company to backtest a strategy and also automated the process while reducing the latency of the system.",
+    image: "/images/projects/algo.jpeg",
+    tag: ["All", "Internship"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 7,
+    title: "Analysis Tool for Mutual Fund",
+    description: "Developed the system to do Factor Attribution of different Mutual fund and pridict the factors on which the returns of the fund are more inclined into.",
+    image: "/images/projects/mutual-fund.jpg",
+    tag: ["All", "Internship"],
+    gitUrl: "/",
     previewUrl: "/",
   },
 ];
@@ -88,8 +106,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Internship"
+          isSelected={tag === "Internship"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
