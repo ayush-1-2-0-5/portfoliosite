@@ -25,8 +25,8 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "ConfessOut",
-    description: "This is the project that i am currently working on that aims to create a platform for people to confess their secrets while keeping their identity hidden. Confession is done through story and not person.",
+    title: "Chitthi",
+    description: "This is the project that i am currently working on that aims to create a platform for people to write their secrets while keeping their identity hidden.",
     image: "/images/projects/confessout.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ayush-1-2-0-5/confessout",
